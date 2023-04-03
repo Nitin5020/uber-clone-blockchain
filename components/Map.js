@@ -6,7 +6,8 @@ const style = {
   wrapper: `flex-1 h-full w-full`,
 }
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+mapboxgl.accessToken = 'pk.eyJ1IjoicGx1dG9kcml2ZSIsImEiOiJjbGcwb3R2Y24wOGk1M3BtZ3FqcmcwNWI3In0.ms-qERQPJNffa-XBdxyx2g';
+
 
 const Map = () => {
   const { pickupCoordinates, dropoffCoordinates } = useContext(UberContext)
